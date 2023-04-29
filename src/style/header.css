@@ -1,6 +1,9 @@
 header{
     padding: 42px 0;
-
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    top: 0;
 }
 nav {
     align-items: center;
@@ -18,10 +21,10 @@ nav div a {
     transition: color .3s ease-in-out;
     position: relative;
 }
-.nav-active, nav div :hover{
+.nav-active, nav div a:hover{
     color : var(--primary);
 }
-nav div agit::after {
+nav div a::after {
     bottom: -5px;
     content: "";
     height: 2px;

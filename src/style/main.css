@@ -1,6 +1,7 @@
-@import url(./variable.css);
-@import url(./base.css);
+@import url(./config/variable.css);
+@import url(./config/base.css);
 @import url(header.css);
+@import url(benner.css);
 
 h1 {
     color: var(--primary);
