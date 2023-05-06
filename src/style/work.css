@@ -1,0 +1,46 @@
+.work-section {
+    margin: 200px 0;
+}
+
+.work-section .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 42px;
+}
+
+.work-card {
+    text-align: center;
+}
+
+.work-title {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.work-desc {
+    margin-top: 20px;
+}
+
+.work-btn {
+    display: flex;
+    color: var(--text-primary);
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+    gap: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.work-btn:hover {
+    color: var(--primary);
+}
+
+.work-btn img {
+    transition: tranform 0.3s ease-in-out;
+}
+.work-btn:hover img {
+    transform: translateX(5px);
+}
