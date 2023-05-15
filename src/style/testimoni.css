@@ -28,11 +28,13 @@
     align-items: center;
     display: flex;
     gap: 24px;
+
 }
 
 .testimoni-card-head img {
     border-radius: 100%;
     overflow: hidden;
+
 }
 
 .testimoni-card-head div p:first-child {
@@ -45,6 +47,7 @@
     font-size: 25px;
     font-weight: 400;
     margin: 0;
+
 }
 
 .testimoni-card-desc {
