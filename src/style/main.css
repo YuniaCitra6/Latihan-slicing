@@ -4,6 +4,8 @@
 @import url(benner.css);
 @import url(work.css);
 @import url(about.css);
+@import url(testimoni.css);
+@import url(footer.css);
 
 h1 {
     color: var(--primary);

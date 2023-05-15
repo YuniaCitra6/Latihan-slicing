@@ -41,6 +41,7 @@
 .work-btn img {
     transition: tranform 0.3s ease-in-out;
 }
+
 .work-btn:hover img {
     transform: translateX(5px);
 }
